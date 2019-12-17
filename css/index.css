@@ -272,22 +272,44 @@ footer small {
 }
 
 @media(max-width: 768px) {
+	body {
+		padding: 20px;
+	}
+
+	.logo {
+		margin-bottom: 30px;
+	}
+
 	.nav-container {
-		flex-direction: column;
-		justify-content: space-between;
+		flex-direction: column-reverse;
+		margin-top: 0;
 	}
 
 	nav {
 		margin-top: unset;
-		justify-content: center;
+		justify-content: space-between;
+	}
+
+	nav a {
+		padding: unset;
+		margin: unset;
 	}
 
 	.jumbotron {
 		justify-content: center;
 	}
 
+	.jumbotron h1 {
+		margin-top: unset;
+		padding: 0 5px;
+	}
+
 	.jumbotron .box:last-child {
 		display: none;
+	}
+
+	.second-section img {
+		width: 100%;
 	}
 
 }
