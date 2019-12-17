@@ -315,5 +315,42 @@ footer small {
 }
 
 @media(max-width: 400px) {
+	
+	nav {
+		flex-direction: column;
+	}
+
+	nav a {
+		font-size: 18px;
+		font-weight: bold;
+		border-top: 1px solid black;
+		padding: 15px;
+	}
+
+	nav a:last-child {
+		border-bottom: 1px solid black;
+	}
+
+	.main-content {
+		border-top: 2px solid black;
+		border-bottom: 2px solid black;
+	}
+
+	.jumbotron h1 {
+		padding: unset;
+		font-size: 62px;
+	}
+
+	.first-section,
+	.third-section {
+		flex-direction: column;
+	}
+
+	.first-section .box,
+	.third-section .box {
+		width: 100%;
+    	margin-bottom: 5%;
+    	margin-right: unset;
+	}
 
 }
