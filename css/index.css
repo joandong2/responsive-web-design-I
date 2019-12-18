@@ -271,7 +271,7 @@ footer small {
 	margin-bottom: 10px;
 }
 
-@media(max-width: 768px) {
+@media(max-width: 800px) {
 	body {
 		padding: 20px;
 	}
@@ -318,7 +318,7 @@ footer small {
 
 }
 
-@media(max-width: 479px) {
+@media(max-width: 500px) {
 	nav {
 		flex-direction: column;
 	}
