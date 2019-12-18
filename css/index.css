@@ -122,7 +122,6 @@ nav a:hover {
 
 .jumbotron h1 {
 	font-size: 72px;
-    padding: 0 90px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
@@ -300,12 +299,11 @@ footer small {
 	}
 
 	.jumbotron .box {
-		padding: 0 5%;
+		width: 98%;
 	}
 
 	.jumbotron h1 {
 		margin-top: unset;
-		padding: unset;
 	}
 
 	.jumbotron .box:last-child {
@@ -339,13 +337,7 @@ footer small {
 		border-bottom: 2px solid black;
 	}
 
-	.jumbotron .box {
-		width: 55%;
-		padding: unset;
-	}
-
 	.jumbotron h1 {
-		text-align: center;
 		font-size: 48px;
 	}
 
